@@ -1,0 +1,79 @@
+.mypage{
+    background-color: rgba(223, 238, 252, 0.6);
+    height: 100vh; 
+    
+}
+.top-title{
+
+    background: linear-gradient(15.46deg, #4A25E1 26.3%, #7B5AFF 86.4%);
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: math;
+    font-size: 17px;
+}
+
+.chat{
+    display: flex;
+    height: 95vh;
+}
+
+.chat-left{
+    margin: 10px;
+    width: 20%;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.chat-left-top{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+}
+.chat-left-container{
+    border: 1px solid rgb(245, 238, 238);
+    border-radius: 1px;
+}
+.chat-right{
+    width: 80%;
+}
+.chat-right-top{
+    margin: 20px;
+    font-size: 20px;
+}
+.chat-right-container{
+    text-align: center;
+    height: 80vh;
+}
+.writing{
+    height: 70vh;
+}
+.chat-right-input{
+    text-align: center;
+    width: 100%;
+}
+.Submit{
+    background: linear-gradient(15.46deg, #4A25E1 26.3%, #7B5AFF 86.4%)!important;
+    border-radius: 19px;
+    color: white;
+    width: 10%;
+    padding: 20px 20px;
+    margin: 8px;
+    border: 1px solid white;
+}
+.Submit:hover{
+    background: linear-gradient(15.46deg, #4A25E1 26.3%, #0d0335 86.4%)!important;
+}
+.input{
+    border: 1px solid white;
+    border-radius: 19px;
+    width: 50%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+  }
